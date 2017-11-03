@@ -1,3 +1,6 @@
+//This code will check the distance every 10 milliseconds
+//If the distance is less than 10 cm, it will light up bulb on pin 7
+//Works just witha  wave, even a fast one
 int trigPin = 12;  
 int echoPin = 11;   
 int ledpin = 7;
